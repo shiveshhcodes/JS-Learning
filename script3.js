@@ -31,9 +31,39 @@
 
 // DO - WHILE - LOOP
 
-let i = 20;
+// let i = 20;
 
-do {
-    console.log("Apna College")
-    i++ ;
-} while (i<=40) ;
+// do {
+//     console.log("Apna College")
+//     i++ ;
+// } while (i<=40) ;
+
+
+
+// for - of Loop!!
+
+
+// let str = "shibudon";
+// let size = 0;
+
+// for (let i of str) {
+//     console.log("i=" , i);
+//     size++
+// }
+
+// console.log("string size is = " , size);
+
+
+// FOR - IN LOOPS
+
+let student = {
+    name : "shivesh" ,
+    age : 21 ,
+    cgpa: 7.5 ,
+    isPass: true ,
+} ;
+
+for (let i in student) {
+    console.log("key =" , i , "value =" , student[i])
+} ;
+
