@@ -75,17 +75,17 @@
 
 
 let a = 10;
-let b = 21;
+let b = 10;
 
-// this does not check types!!
+// it only check values!!
 
-console.log("a = " , a , "b = ", b)
-console.log("a == b is" , a==b)
+// console.log("a = " , a , "b = ", b)
+// console.log("a == b is" , a==b)
 
-console.log("a = " , a , "b = ", b)
-console.log("a is not equal to b is" , a!=b)
+// console.log("a = " , a , "b = ", b)
+// console.log("a is not equal to b is" , a!=b)
 
-// this does checks the types!!
+// this does checks the values and types!!
 
 console.log("a = " , a , "b = ", b)
 console.log("a === b is" , a===b)
