@@ -14,12 +14,18 @@
 // data types 
 
 
-// 1. numbers
+// 1. Numbers
 
 // let age = 45;
 // let number = 100;
 
-// 2. strings
+// 2. Strings
 
-let Fullname = "Shivesh Richhariya";
-let location = "Chhatarpur";
+// let Fullname = "Shivesh Richhariya";
+// let place = "Chhatarpur";
+
+// 3. Boolean
+
+isFollow = true;
+shiveshFollowing = false;
+
