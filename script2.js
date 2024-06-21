@@ -74,8 +74,8 @@
                             // Comparision operators
 
 
-let a = 10;
-let b = 10;
+// let a = 10;
+// let b = 10;
 
 // it only check values!!
 
@@ -87,11 +87,80 @@ let b = 10;
 
 // this does checks the values and types!!
 
-console.log("a = " , a , "b = ", b)
-console.log("a === b is" , a===b)
+// console.log("a = " , a , "b = ", b)
+// console.log("a === b is" , a===b)
 
-console.log("a = " , a , "b = ", b)
-console.log("a type is not equal to b type is - " , a!==b)
+// console.log("a = " , a , "b = ", b)
+// console.log("a type is not equal to b type is - " , a!==b)
+
+
+                         // Conditional Statements 
+
+
+// if statements
+
+
+// let mode = "dark";
+// let color;
+
+// if (mode === "dark"){
+//     color = "black";
+// }
+
+// if (mode === "white"){
+//     color = "light";
+// }
+
+// console.log(color);
+
+
+// if-else statements
+
+
+
+// let mode = "dak";
+// let color;
+
+// if (mode ==="dark"){
+//     color = "black";
+// } else {
+//     color = "white";
+// }
+
+// console.log(color)
+
+
+
+// let num = 89;
+
+// if(num % 2 === 0) {
+//     console.log(num , "is a even number");
+// } else {
+//     console.log(num , "is a odd number.");
+// }
+           
+
+// let age = 9;
+
+// if(age > 18){
+// console.log("You can Vote");
+// } else if (age <= 10) {
+// console.log("You are Kid Now!! You cannot Vote");
+// } else if (age === 21){
+//     console.log("You can Vote and You are adult now")
+// } else {
+//     console.log("You cannot vote")
+// }
+
+
+// Ternary Output
+
+ let age = 16
+
+ let result = age>18 ? console.log("you are adult") : console.log("You are not adult") ;
+ 
+
+
 
 
 
