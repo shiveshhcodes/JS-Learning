@@ -19,3 +19,7 @@
 // let age = 45;
 // let number = 100;
 
+// 2. strings
+
+let Fullname = "Shivesh Richhariya";
+let location = "Chhatarpur";
