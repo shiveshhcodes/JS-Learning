@@ -33,17 +33,26 @@
 
 // OBJECTS
 
-const student = {
-    fullName: "Shivesh Richhariya" ,
-    age: 21 ,
-    cgpa: 7.7 ,
-    isPass : true ,
-}
+// const student = {
+//     fullName: "Shivesh Richhariya" ,
+//     age: 21 ,
+//     cgpa: 7.7 ,
+//     isPass : true ,
+// }
 
-// can make changes to student data 
-student["age"] = student["age"] + 1 
+// // can make changes to student data 
+// student["age"] = student["age"] + 1 
 
-console.log(student["age"])
+// console.log(student["age"])
+
+const product = {
+    productName: "Parker Jotter Black Pen" , 
+    rating : 7002 ,
+    price: 270 , 
+    isOffer: 5 , 
+} ;
+
+console.log(product)
 
 
 
