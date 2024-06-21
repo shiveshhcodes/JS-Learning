@@ -22,8 +22,18 @@
 
 // WHILE LOOOOOOOOP!!!
 
-let i = 1;
-while (i<= 10) {
-    console.log("shivesh");
-    i++;
-}
+// let i = 1;
+// while (i<= 10) {
+//     console.log("shivesh" , i);
+//     i++;
+// }
+
+
+// DO - WHILE - LOOP
+
+let i = 20;
+
+do {
+    console.log("Apna College")
+    i++ ;
+} while (i<=40) ;
