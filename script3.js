@@ -76,4 +76,18 @@
 // }
 
 
-practice
+// practice question 2
+
+//  let gameNum = 25;
+//  let userNum = prompt("Guess the number");
+
+//  while(gameNum != userNum) {
+//     userNum = prompt("You entered wrong number , enter a number again")
+//  }
+
+//  console.log("congratulations , you hit the right number ")
+
+
+// strings in js
+
+
