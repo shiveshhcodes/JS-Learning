@@ -47,7 +47,7 @@
 // let size = 0;
 
 // for (let i of str) {
-//     console.log("i=" , i);
+//     console.log("letter =" , i);
 //     size++
 // }
 
@@ -64,6 +64,6 @@ let student = {
 } ;
 
 for (let i in student) {
-    console.log("key =" , i , "value =" , student[i])
+    console.log("the key is" , i , "& it's value is" , student[i])
 } ;
 
