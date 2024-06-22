@@ -91,3 +91,8 @@
 // strings in js
 
 
+let str = "shivesh"
+let str2 = 'shivesh'
+str.length
+
+console.log(str.length)
