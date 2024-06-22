@@ -56,14 +56,24 @@
 
 // FOR - IN LOOPS
 
-let student = {
-    name : "shivesh" ,
-    age : 21 ,
-    cgpa: 7.5 ,
-    isPass: true ,
-} ;
+// let student = {
+//     name : "shivesh" ,
+//     age : 21 ,
+//     cgpa: 7.5 ,
+//     isPass: true ,
+// } ;
 
-for (let i in student) {
-    console.log("the key is" , i , "& it's value is" , student[i])
-} ;
+// for (let i in student) {
+//     console.log("the key is" , i , "& it's value is" , student[i])
+// } ;
 
+// practice question 1
+
+// for (let i = 0 ; i<=300 ; i++){
+//     if (i%2===0) {
+//        console.log("even num is" , i)
+//     }
+// }
+
+
+practice
