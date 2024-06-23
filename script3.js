@@ -112,9 +112,14 @@
 // console.log(newstr)
 
 let fullName = prompt("enter your Full name");
-let lengthname = fullName.length;
-let username = "@";
+// username = "@" + fullName + fullName.length
+// console.log(username)
 
-let final = username.concat(fullName , lengthname);
-console.log(final);
+
+let firstValue = "@"
+let lenOf = fullName.length
+
+let final = firstValue.concat(fullName , lenOf)
+console.log(final)
+
 
