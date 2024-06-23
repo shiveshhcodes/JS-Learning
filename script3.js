@@ -101,4 +101,5 @@
 
 let str = "wowboss";
 // let newstr = str.toLowerCase();
+let newstr = str.toUpperCase();
 console.log(newstr)
