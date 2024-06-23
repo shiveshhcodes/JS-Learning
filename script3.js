@@ -99,8 +99,8 @@
 
 // STRING METHODS
 
-let str1 = "wowboss ";
-let str2 = "2525";
+// let str1 = "wowboss ";
+// let str2 = "2525";
 // let newstr = str.toLowerCase();
 // let newstr = str.toUpperCase();
 // let newstr = str.trim();
@@ -109,4 +109,4 @@ let str2 = "2525";
 // let newstr = str1.replace("wow" , "boss")
 // let newstr =str1.charAt(2)
 
-console.log(newstr)
+// console.log(newstr)
