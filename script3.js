@@ -102,6 +102,7 @@
 let str = " wowboss  ";
 // let newstr = str.toLowerCase();
 // let newstr = str.toUpperCase();
-let newstr = str.trim();
+// let newstr = str.trim();
+let newstr = str.slice(2,5)
 
 console.log(newstr)
