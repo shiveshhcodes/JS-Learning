@@ -106,7 +106,7 @@ let str2 = "2525";
 // let newstr = str.trim();
 // let newstr = str.slice(2,5)
 // let newstr = str1.concat(str2)
-let newstr = str1.replace("wow" , "boss")
+// let newstr = str1.replace("wow" , "boss")
 // let newstr =str1.charAt(2)
 
 console.log(newstr)
