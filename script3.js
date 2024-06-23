@@ -96,3 +96,7 @@
 // str.length
 
 // console.log(str.length)
+
+let str = "wowboss";
+let newstr = str.toLowerCase();
+console.log(newstr)
