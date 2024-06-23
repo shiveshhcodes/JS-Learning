@@ -99,7 +99,9 @@
 
 // STRING METHODS
 
-let str = "wowboss";
+let str = " wowboss  ";
 // let newstr = str.toLowerCase();
-let newstr = str.toUpperCase();
+// let newstr = str.toUpperCase();
+let newstr = str.trim();
+
 console.log(newstr)
