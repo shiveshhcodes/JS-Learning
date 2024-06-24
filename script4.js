@@ -1,14 +1,7 @@
-// console.log(4)
-// for (let i=1 ; i<=34 ; i++){
-//     console.log("value is ",i)
-// }
+// while loop 
 
-let sum = 0;
-let n = 12;
-
-for (let c=1;c<=n;c++){
-    sum = sum + c
+let i = 1
+while (i<=10){
+    console.log("shivesh" , i);
+    i++;
 }
-console.log(sum)
-
-
