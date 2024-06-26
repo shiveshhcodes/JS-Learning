@@ -1,7 +1,2 @@
-// while loop 
+// lets start learning arrays in JS.
 
-let i = 1
-while (i<=10){
-    console.log("shivesh" , i);
-    i++;
-}
