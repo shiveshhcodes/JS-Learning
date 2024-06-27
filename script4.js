@@ -36,15 +36,15 @@ let ar = [21 , "shivesh" , "w0w" , 45]
 
 let price = [250 , 645 , 300 , 900 , 50]
 
-let i=0;
-for(let val of price){
-console.log(`the price of product ${i} = ${val}`);
-let offer = val / 10;
-price[i] = price[i] - offer;
-console.log(`value after offer = ${price[i]}`);
-i++;
-}
+let i = 0;
 
+for (let val of price){
+    console.log(`the price of product ${i} is ${val}`)
+    let offer = val/10;
+    price[i] = price[i] - offer;
+    console.log(`it's price after discount is ${price[i]}`)
+    i++;
+}
 
 
 
