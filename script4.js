@@ -13,6 +13,6 @@ let ar = [21 , "shivesh" , "w0w" , 45]
 // }
 
 // for of loop.
-for(let element of ar){
-    console.log(element)
-}
+// for(let element of ar){
+//     console.log(element)
+// }
