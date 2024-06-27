@@ -19,19 +19,33 @@ let ar = [21 , "shivesh" , "w0w" , 45]
 
 
 
-let marks = [85,97,44,37,76,60];
-let sum = 0;
-console.log("given numbers are :")
-// average = sum of marks / length
+// let marks = [85,97,44,37,76,60];
+// let sum = 0;
+// console.log("given numbers are :")
+// // average = sum of marks / length
 
-for (let val of marks){
-    console.log(val)
-    sum+=val;
+// for (let val of marks){
+//     console.log(val)
+//     sum+=val;
+// }
+
+// let avg = sum / marks.length
+// console.log(`the sum of marks is ${sum}`)
+// console.log(`the average of marks is ${avg}`)
+
+
+let price = [250 , 645 , 300 , 900 , 50]
+
+let i=0;
+for(let val of price){
+console.log(`the price of product ${i} = ${val}`);
+let offer = val / 10;
+price[i] = price[i] - offer;
+console.log(`value after offer = ${price[i]}`);
+i++;
 }
 
-let avg = sum / marks.length
-console.log(`the sum of marks is ${sum}`)
-console.log(`the average of marks is ${avg}`)
+
 
 
 
