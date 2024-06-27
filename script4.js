@@ -34,21 +34,17 @@ let ar = [21 , "shivesh" , "w0w" , 45]
 // console.log(`the average of marks is ${avg}`)
 
 
-let price = [250 , 645 , 300 , 900 , 50]
+// let price = [250 , 645 , 300 , 900 , 50]
 
-let i = 0;
+// let i = 0;
 
-for (let val of price){
-    console.log(`the price of product ${i} is ${val}`)
-    let offer = val/10;
-    price[i] = price[i] - offer;
-    console.log(`it's price after discount is ${price[i]}`)
-    i++;
-}
-
-
+// for (let val of price){
+//     console.log(`the price of product ${i} is ${val}`)
+//     let offer = val/10;
+//     price[i] = price[i] - offer;
+//     console.log(`it's price after discount is ${price[i]}`)
+//     i++;
+// }
 
 
-
-
-
+// ARRAYS METHODS
