@@ -16,3 +16,25 @@ let ar = [21 , "shivesh" , "w0w" , 45]
 // for(let element of ar){
 //     console.log(element)
 // }
+
+
+
+let marks = [85,97,44,37,76,60];
+let sum = 0;
+console.log("given numbers are :")
+// average = sum of marks / length
+
+for (let val of marks){
+    console.log(val)
+    sum+=val;
+}
+
+let avg = sum / marks.length
+console.log(`the sum of marks is ${sum}`)
+console.log(`the average of marks is ${avg}`)
+
+
+
+
+
+
