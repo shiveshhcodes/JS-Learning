@@ -36,7 +36,7 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 
 let price = [550 , 545 , 500 , 940 , 52.15540]
 
-let i = 0;
+let i =0;
 
 for (let val of price){
     console.log(`the price of product ${i} is ${val}`)
