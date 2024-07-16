@@ -52,5 +52,5 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 // first is to add anything in array!!
 
 let items = ["potato" , "tomato" , "onion" , "apple"];
-items.push("banana")
+items.push("banana , lichi")
 console.log(items);
