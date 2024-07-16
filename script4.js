@@ -67,3 +67,6 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 
 let marvelHeroes = ["spiderman" , "ironman" , "captain america"];
 let dcHeroes = ["batman" , "superman"]
+
+let heroes = marvelHeroes.concat(dcHeroes);
+console.log(heroes);
