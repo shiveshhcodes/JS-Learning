@@ -71,7 +71,8 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 // let heroes = marvelHeroes.concat(dcHeroes);
 // console.log(heroes);
 
+let bigCom = ["Bloomberg" , "Microsoft" , "Uber", "Google" , "IBM" , "Netflix"]
+// let firstTask = bigCom.shift();
+// console.log(firstTask)
 
-let pins = ["12,21,34,67"]
-pins.slice(1,3)
-
+// bigCom.splice(2,1,"Ola")
