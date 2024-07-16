@@ -1,6 +1,6 @@
 // lets start learning arrays in JS.
 
-let ar = [21 , "shivesh" , "w0w" , 45 , 21]
+let ar = [21 , "shivesh" , "wow" , 45 , 21]
 
 // console.log(ar[0]);
 // console.log(ar[1]);
