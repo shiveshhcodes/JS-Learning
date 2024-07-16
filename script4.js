@@ -65,4 +65,5 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 
 // other arrays methods
 
-let marvel = ["spiderman"]
+let marvelHeroes = ["spiderman" , "ironman" , "captain america"];
+let dcHeroes = ["batman" , "superman"]
