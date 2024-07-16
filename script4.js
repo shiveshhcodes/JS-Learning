@@ -65,8 +65,13 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 
 // other arrays methods
 
-let marvelHeroes = ["spiderman" , "ironman" , "captain america"];
-let dcHeroes = ["batman" , "superman"]
+// let marvelHeroes = ["spiderman" , "ironman" , "captain america"];
+// let dcHeroes = ["batman" , "superman"]
 
-let heroes = marvelHeroes.concat(dcHeroes);
-console.log(heroes);
+// let heroes = marvelHeroes.concat(dcHeroes);
+// console.log(heroes);
+
+
+let pins = ["12,21,34,67"]
+pins.slice(1,3)
+
