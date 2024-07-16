@@ -54,3 +54,8 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 let items = ["potato" , "tomato" , "onion" , "apple"];
 items.push("banana , lichi")
 console.log(items);
+
+// now to remove from arrays!!
+
+items.pop("tomato")
+console.log(items);
