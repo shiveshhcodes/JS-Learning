@@ -1,0 +1,1 @@
+// today we are gonna learn functions and methods in JS
