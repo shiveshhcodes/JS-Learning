@@ -57,5 +57,7 @@ console.log(items);
 
 // now to remove from arrays!!
 
-items.pop("tomato")
-console.log(items);
+let deleteditem = items.pop("tomato")
+console.log(items)
+console.log("deleted" , deleteditem);
+
