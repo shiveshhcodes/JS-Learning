@@ -64,3 +64,5 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 // console.log(items.toString());
 
 // other arrays methods
+
+let marvel = ["spiderman"]
