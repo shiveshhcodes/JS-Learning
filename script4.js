@@ -61,3 +61,4 @@ let deleteditem = items.pop("tomato")
 console.log(items)
 console.log("deleted" , deleteditem);
 
+console.log(items.toString());
