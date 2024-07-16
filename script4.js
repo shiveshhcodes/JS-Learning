@@ -76,4 +76,4 @@ let bigCom = ["Bloomberg" , "Microsoft" , "Uber", "Google" , "IBM" , "Netflix"]
 // console.log(firstTask)
 
 // bigCom.splice(2,1,"Ola")
-bigCom.
+bigCom.push("Amazon")
