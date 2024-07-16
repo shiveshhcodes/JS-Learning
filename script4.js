@@ -51,14 +51,16 @@ let ar = [21 , "shivesh" , "w0w" , 45 , 21]
 
 // first is to add anything in array!!
 
-let items = ["potato" , "tomato" , "onion" , "apple"];
-items.push("banana , lichi")
-console.log(items);
+// let items = ["potato" , "tomato" , "onion" , "apple"];
+// items.push("banana , lichi")
+// console.log(items);
 
 // now to remove from arrays!!
 
-let deleteditem = items.pop("tomato")
-console.log(items)
-console.log("deleted" , deleteditem);
+// let deleteditem = items.pop("tomato")
+// console.log(items)
+// console.log("deleted" , deleteditem);
 
-console.log(items.toString());
+// console.log(items.toString());
+
+// other arrays methods
