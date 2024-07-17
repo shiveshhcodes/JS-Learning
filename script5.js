@@ -19,11 +19,15 @@
 // myfunc("my name is shivesh richhariya");
 
 
-function sum(x,y){
-    s = x + y;
-    return s;
-}
+// function sum(x,y){
+//     s = x + y;
+//     return s;
+// }
 
-let val = sum(21)
+// let val = sum(21)
+
+const arrowfunc = (a ,b) =>{
+    console.log(a+b);
+}
 
 
