@@ -19,8 +19,11 @@
 // myfunc("my name is shivesh richhariya");
 
 
-// function sum(x,y){
-//     console.log(x+y)
-// }
+function sum(x,y){
+    s = x + y;
+    return s;
+}
+
+let val = sum(21)
 
 
