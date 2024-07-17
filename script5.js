@@ -39,4 +39,22 @@
 //     return x*y
 // }
 
+function Countvowels(str){
+    let count = 0;
+    for(const char of str){
+        if (
+            char === "a" || 
+            char === "e" || 
+            char === "i" || 
+            char === "o" ||
+            char === "u" 
+        ) {
+            count++;
+        }
+    }
+}
+
+let val = prompt("enter a word")
+console.log(count)
+
 
