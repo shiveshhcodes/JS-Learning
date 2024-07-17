@@ -37,9 +37,9 @@
 
 // function mul(x,y){
 //     return x*y
-// }
+// })
 
-function Countvowels(str){
+ function Countvowels(str){
     let count = 0;
     for(const char of str){
         if (
@@ -50,11 +50,13 @@ function Countvowels(str){
             char === "u" 
         ) {
             count++;
+            console.log(char)
         }
     }
+    console.log(count);
 }
 
-let val = prompt("enter a word")
-console.log(count)
+let val = prompt("enter a word");
+Countvowels(val);
 
 
