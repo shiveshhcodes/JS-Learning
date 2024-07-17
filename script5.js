@@ -17,3 +17,8 @@
 // }
 
 // myfunc("my name is shivesh richhariya");
+
+
+function sum(x,y){
+    console.log(x+y)
+}
