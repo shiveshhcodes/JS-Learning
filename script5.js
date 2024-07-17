@@ -10,3 +10,10 @@
 // myfunc();
 // myfunc();
 // myfunc();
+
+
+// function myfunc(msg){
+//     console.log(msg);
+// }
+
+// myfunc("my name is shivesh richhariya");
