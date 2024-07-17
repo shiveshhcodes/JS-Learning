@@ -31,3 +31,12 @@ const arrowfunc = (a ,b) =>{
 }
 
 
+const arrowmul = (a, b) =>{
+    console.log(a*b);
+}
+
+function mul(x,y){
+    return x*y
+}
+
+
