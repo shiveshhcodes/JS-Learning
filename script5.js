@@ -26,17 +26,17 @@
 
 // let val = sum(21)
 
-const arrowfunc = (a ,b) =>{
-    console.log(a+b);
-}
+// const arrowfunc = (a ,b) =>{
+//     console.log(a+b);
+// }
 
 
-const arrowmul = (a, b) =>{
-    console.log(a*b);
-}
+// const arrowmul = (a, b) =>{
+//     console.log(a*b);
+// }
 
-function mul(x,y){
-    return x*y
-}
+// function mul(x,y){
+//     return x*y
+// }
 
 
