@@ -103,3 +103,9 @@ const output = newSq.reduce((prev , curr) => {
 })
 
 console.log(output)
+
+let input = sq.reduce((pre , cur) => {
+    return pre>cur ? pre : cur;
+});
+
+console.log(input)
