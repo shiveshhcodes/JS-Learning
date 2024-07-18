@@ -66,7 +66,7 @@
 //  })
 
 
-let sq = [34,23,223,444,52,21,89]
+let sq = [99,67,32,332,556,231,4312,2232,2343]
 // let square = ((sq) => {
 //     console.log(sq*sq*sq)
 // })
@@ -88,8 +88,8 @@ let sq = [34,23,223,444,52,21,89]
 let newSq = sq.filter((val) =>{
     return val% 2===0;
 })
-// console.log("the original array is " , sq)
-// console.log("the divide by 3 filtered array is ", newSq)
+console.log("the original array is " , sq)
+console.log("the divide by 3 filtered array is ", newSq)
 
 // let sum = 0;
 // for (let val of newSq){
@@ -107,4 +107,10 @@ let input = sq.reduce((pre , cur) => {
     return pre>cur ? pre : cur;
 });
 
-console.log(input)
+console.log("the largest number among filtered values are",input)
+
+let innput = sq.reduce((pr , cu) => {
+    return pr<cu ? pr : cu;
+});
+
+console.log("the smallest number among filtered values are",innput)
