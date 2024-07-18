@@ -66,7 +66,7 @@
 //  })
 
 
-let sq = [99,67,32,332,556,231,4312,2232,2343]
+// let sq = [99,67,32,332,556,231,4312,2232,2343]
 // let square = ((sq) => {
 //     console.log(sq*sq*sq)
 // })
@@ -85,11 +85,11 @@ let sq = [99,67,32,332,556,231,4312,2232,2343]
 
 // now discover filter method - 
 
-let newSq = sq.filter((val) =>{
-    return val% 2===0;
-})
-console.log("the original array is " , sq)
-console.log("the divide by 3 filtered array is ", newSq)
+// let newSq = sq.filter((val) =>{
+//     return val% 2===0;
+// })
+// console.log("the original array is " , sq)
+// console.log("the divide by 3 filtered array is ", newSq)
 
 // let sum = 0;
 // for (let val of newSq){
@@ -98,28 +98,45 @@ console.log("the divide by 3 filtered array is ", newSq)
 
 // console.log("total sum of filtered array is" , sum)
 
-const output = newSq.reduce((prev , curr) => {
-    return prev + curr
+// const output = newSq.reduce((prev , curr) => {
+//     return prev + curr
+// })
+// console.log("the sum of filtered values are",output)
+
+// let input = sq.reduce((pre , cur) => {
+//     return pre>cur ? pre : cur;
+// });
+
+// console.log("the largest number among filtered values are",input)
+
+// let innput = sq.reduce((pr , cu) => {
+//     return pr<cu ? pr : cu;
+// });
+
+// console.log("the smallest number among filtered values are",innput)
+
+
+// let marks = [21,56,98,93,78,90,56,76,96]
+
+// let highMarks = marks.filter((val) =>{
+//     return val>90;
+// })
+
+// console.log("marks of students who scored more then 90+ are ",highMarks)
+
+
+let n = prompt("enter a new number : ");
+
+let arr = [];
+
+for (let i = 1 ; i<=n; i++){
+    arr[i-1] = i;
+}
+
+console.log("the values are from number you entered is",arr)
+
+const sum = arr.reduce((prev , curr)=>{
+ return prev + curr
 })
-console.log("the sum of filtered values are",output)
 
-let input = sq.reduce((pre , cur) => {
-    return pre>cur ? pre : cur;
-});
-
-console.log("the largest number among filtered values are",input)
-
-let innput = sq.reduce((pr , cu) => {
-    return pr<cu ? pr : cu;
-});
-
-console.log("the smallest number among filtered values are",innput)
-
-
-let marks = [21,56,98,93,78,90,56,76,96]
-
-let highMarks = marks.filter((val) =>{
-    return val>90;
-})
-
-console.log("marks of students who scored more then 90+ are ",highMarks)
+console.log("the sum of above values of array is",sum)
