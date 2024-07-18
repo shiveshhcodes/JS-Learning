@@ -101,8 +101,7 @@ let newSq = sq.filter((val) =>{
 const output = newSq.reduce((prev , curr) => {
     return prev + curr
 })
-
-console.log(output)
+console.log("the sum of filtered values are",output)
 
 let input = sq.reduce((pre , cur) => {
     return pre>cur ? pre : cur;
