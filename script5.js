@@ -85,9 +85,9 @@ let sq = [34,23,223,444,52,21,89]
 
 // now discover filter method - 
 
-// let newSq = sq.filter((val) =>{
-//     return val% 2===0;
-// })
+let newSq = sq.filter((val) =>{
+    return val% 2===0;
+})
 // console.log("the original array is " , sq)
 // console.log("the divide by 3 filtered array is ", newSq)
 
@@ -98,7 +98,7 @@ let sq = [34,23,223,444,52,21,89]
 
 // console.log("total sum of filtered array is" , sum)
 
-const output = sq.reduce((prev , curr) => {
+const output = newSq.reduce((prev , curr) => {
     return prev + curr
 })
 
