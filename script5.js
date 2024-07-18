@@ -70,4 +70,6 @@ let sq = [1,2,3,4,5,6,7,8,9,10]
 let square = ((sq) => {
     console.log(sq*sq)
 })
+
+// the above can be used as a defination of square
 sq.forEach(square)
