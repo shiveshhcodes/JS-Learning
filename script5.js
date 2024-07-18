@@ -114,3 +114,12 @@ let innput = sq.reduce((pr , cu) => {
 });
 
 console.log("the smallest number among filtered values are",innput)
+
+
+let marks = [21,56,98,93,78,90,56,76,96]
+
+let highMarks = marks.filter((val) =>{
+    return val>90;
+})
+
+console.log("marks of students who scored more then 90+ are ",highMarks)
