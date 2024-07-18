@@ -125,7 +125,7 @@
 // console.log("marks of students who scored more then 90+ are ",highMarks)
 
 
-let n = prompt("enter a new number : ");
+let n = promt("enter a new number : ");
 
 let arr = [];
 
@@ -135,8 +135,11 @@ for (let i = 1 ; i<=n; i++){
 
 console.log("the values are from number you entered is",arr)
 
+// the sum of numbers code
 const sum = arr.reduce((prev , curr)=>{
  return prev + curr
 })
 
 console.log("the sum of above values of array is",sum)
+
+// the product of code is 
