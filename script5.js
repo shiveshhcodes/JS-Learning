@@ -39,24 +39,35 @@
 //     return x*y
 // })
 
- function Countvowels(str){
-    let count = 0;
-    for(const char of str){
-        if (
-            char === "a" || 
-            char === "e" || 
-            char === "i" || 
-            char === "o" ||
-            char === "u" 
-        ) {
-            count++;
-            console.log(char)
-        }
-    }
-    console.log(count);
-}
+//  function Countvowels(str){
+//     let count = 0;
+//     for(const char of str){
+//         if (
+//             char === "a" || 
+//             char === "e" || 
+//             char === "i" || 
+//             char === "o" ||
+//             char === "u" 
+//         ) {
+//             count++;
+//             console.log(char)
+//         }
+//     }
+//     console.log(count);
+// }
 
-let val = prompt("enter a word");
-Countvowels(val);
+// let val = prompt("enter a word");
+// Countvowels(val);
 
 
+// let ar = [21,56,334,545,55]
+//  ar.forEach((val , idx , ar) =>{
+//     console.log(val , idx , ar)
+//  })
+
+
+let sq = [1,2,3,4,5,6,7,8,9,10]
+let square = ((sq) => {
+    console.log(sq*sq)
+})
+sq.forEach(square)
