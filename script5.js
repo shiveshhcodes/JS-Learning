@@ -66,7 +66,7 @@
 //  })
 
 
-let sq = [1,2,3,4,5,6,7,8,9,10]
+let sq = [34,23,223,444,52,21,89]
 // let square = ((sq) => {
 //     console.log(sq*sq*sq)
 // })
@@ -89,4 +89,11 @@ let newSq = sq.filter((val) =>{
     return val% 2===0;
 })
 console.log("the original array is " , sq)
-console.log("the filtered array is ", newSq)
+console.log("the divide by 3 filtered array is ", newSq)
+
+let sum = 0;
+for (let val of newSq){
+    sum+=val
+}
+
+console.log("total sum of filtered array is " ,sum)
