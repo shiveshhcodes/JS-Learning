@@ -86,7 +86,7 @@ let sq = [1,2,3,4,5,6,7,8,9,10]
 // now discover filter method - 
 
 let newSq = sq.filter((val) =>{
-    return val%2===0;
+    return val% 2===0;
 })
-consol
-console.log(newSq)
+console.log("the original array is " , sq)
+console.log("the filtered array is ", newSq)
