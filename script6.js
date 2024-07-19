@@ -1,1 +1,2 @@
-console.dir(document.body)
+let header = document.getElementById("para");
+console.dir(header)
