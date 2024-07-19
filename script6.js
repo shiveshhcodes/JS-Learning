@@ -1,8 +1,11 @@
-let header = document.getElementById("para");
-console.dir(header)
+// let header = document.getElementById("para");
+// console.dir(header)
 
-let boss = document.getElementsByClassName("boss")
-console.dir(boss)
+// let boss = document.getElementsByClassName("boss")
+// console.dir(boss)
 
-let something = document.getElementsByTagName("p")
-console.dir(something)
+// let something = document.getElementsByTagName("p")
+// console.dir(something)
+
+let elements = document.querySelector("p")
+console.dir(elements)
