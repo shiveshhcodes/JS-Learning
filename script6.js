@@ -4,4 +4,5 @@ console.dir(header)
 let boss = document.getElementsByClassName("boss")
 console.dir(boss)
 
-let som
+let something = document.getElementsByTagName("p")
+console.dir(something)
