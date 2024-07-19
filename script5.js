@@ -68,7 +68,7 @@
 
 // let sq = [99,67,32,332,556,231,4312,2232,2343]
 // let square = ((sq) => {
-//     console.log(sq*sq*sq)
+//     console.log(sq*sq)
 // })
 
 // // the above can be used as a defination of square
