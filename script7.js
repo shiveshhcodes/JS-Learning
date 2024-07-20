@@ -1,8 +1,3 @@
-let div = document.querySelector("div")
-console.log(div);
-
-let id = div.getAttribute("id");
-console.log(id);
-
-let did = div.getAttribute(".para");
-console.log(did);
+let para = document.querySelector("p");
+let d = para.getAttribute("class")
+console.log(d)
