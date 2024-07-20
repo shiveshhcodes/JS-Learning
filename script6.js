@@ -10,5 +10,5 @@
 // let elements = document.querySelector("p")
 // console.dir(elements)
 
-let div = document.querySelector("div");
-console.dir(div)
+// let div = document.querySelector("div");
+// console.dir(div)
