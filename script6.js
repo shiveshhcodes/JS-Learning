@@ -7,5 +7,8 @@
 // let something = document.getElementsByTagName("p")
 // console.dir(something)
 
-let elements = document.querySelector(".boss")
-console.dir(elements)
+// let elements = document.querySelector("p")
+// console.dir(elements)
+
+let div = document.querySelector("div");
+console.dir(div)
