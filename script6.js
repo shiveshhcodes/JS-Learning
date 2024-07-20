@@ -25,6 +25,6 @@ let divs = document.querySelectorAll(".box");
 
 let idx = 1;
 for( div of divs) {
-    div.innerText = `new unique value is ${idx}`
+   div.innerText = div.innerText + ` and new unique value is ${idx}`
     idx++;
 }
