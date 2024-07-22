@@ -46,7 +46,7 @@
 // console.log(student["age"])
 
 const product = {
-    productName: "Parker Jotter Black Pen" , 
+    productName: "Parker Black Pen" , 
     rating : 7002 ,
     price: 270 , 
     isOffer: 5 , 
