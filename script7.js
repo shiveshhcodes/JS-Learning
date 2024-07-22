@@ -6,7 +6,7 @@
 // id.style.visibility = "hidden";
 
 let newBtn = document.createElement("button")
-newBtn.innerText = "Click Me";
+newBtn.innerText = "Click MeE";
 console.log(newBtn);
 
 let div = document.querySelector("div");
