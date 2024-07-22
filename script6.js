@@ -23,7 +23,7 @@ let divs = document.querySelectorAll(".box");
 // divs[1].innerText = divs[1].innerText + " new unique value of 2 "
 // divs[2].innerText = divs[2].innerText + " new unique value of 3 "
 
-let idx = 0;
+let idx = 1;
 for( div of divs) {
    div.innerText = div.innerText + ` and new unique value is ${idx}`
     idx++;
