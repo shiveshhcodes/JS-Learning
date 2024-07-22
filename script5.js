@@ -125,7 +125,7 @@
 // console.log("marks of students who scored more then 90+ are ",highMarks)
 
 
-let n = prompt("enter a new number: ");
+let n = prompt("enter a new numberr: ");
 
 let arr = [];
 
