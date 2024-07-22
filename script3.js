@@ -111,7 +111,7 @@
 
 // console.log(newstr)
 
-let fullName = prompt("enter your Full Name");
+let fullName = prompt("enter your Full Namee");
 // username = "@" + fullName + fullName.length
 // console.log(username)
 
