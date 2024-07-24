@@ -24,18 +24,18 @@
 // p.before(newHeading)
 // p.after(newHeading)
 
-let bodyTag = document.createElement("body") ;
-// bodyTag.innerHTML = "<body></body>" ;
-console.log(bodyTag);
-let head = document.querySelector("head").after(bodyTag);
+// let bodyTag = document.createElement("body") ;
+// // bodyTag.innerHTML = "<body></body>" ;
+// console.log(bodyTag);
+// let head = document.querySelector("head").after(bodyTag);
 
-let newBtn = document.createElement("button");
-newBtn.innerText = "click me";
-console.log(newBtn);
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me";
+// console.log(newBtn);
 
-let body = document.querySelector("body");
-body.prepend(newBtn)
+// let body = document.querySelector("body");
+// body.prepend(newBtn)
 
-newBtn.style.backgroundColor = "red";
-newBtn.style.color = "white";
+// newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
 
