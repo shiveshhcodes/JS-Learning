@@ -20,4 +20,5 @@ console.log(newHeading);
 
 let p = document.querySelector("p")
 // p.prepend(newHeading);
-p.append(newHeading);
+// p.append(newHeading);
+p.before(newHeading)
