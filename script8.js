@@ -5,7 +5,7 @@ btn1.onclick = () => {
 }
 let a = 0
 let btn2 = document.querySelector('#btn2')
-btn2.onclick = () => {
+btn2.onmouseover = () => {
     a++;
     console.log(`btn was clicked twice and total of ${a} times.`)
 
