@@ -22,3 +22,4 @@ let p = document.querySelector("p")
 // p.prepend(newHeading);
 // p.append(newHeading);
 p.before(newHeading)
+p.after(newHeading)
