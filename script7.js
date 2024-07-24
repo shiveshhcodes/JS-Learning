@@ -5,16 +5,14 @@
 // id.innerText = "wow boss";
 // id.style.visibility = "hidden";
 
-let newBtn = document.createElement("button")
-newBtn.innerText = "Click MeE";
-console.log(newBtn);
+// let newBtn = document.createElement("button")
+// newBtn.innerText = "Click MeE";
+// console.log(newBtn);
 
-let div = document.querySelector("div");
-// div.append(newBtn);
-div.before(newBtn);
-newBtn.remove();
-
-
+// let div = document.querySelector("div");
+// // div.append(newBtn);
+// div.before(newBtn);
+// newBtn.remove();
 
 // let newHeading = document.createElement("h2");
 // newHeading.innerHTML = "<i> Hello Shivesh </i>";
@@ -26,3 +24,13 @@ newBtn.remove();
 // p.before(newHeading)
 // p.after(newHeading)
 
+let bodyTag = document.createElement("body") ;
+// bodyTag.innerHTML = "<body></body>" ;
+console.log(bodyTag);
+let head = document.querySelector("head").after(bodyTag);
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "click me";
+console.log(newBtn);
+
+let body = document.querySelector("body").prepend(newBtn)
