@@ -14,12 +14,12 @@
 // div.before(newBtn);
 
 
-let newHeading = document.createElement("h2")
-newHeading.innerText = "HELLO SHIVESH";
+let newHeading = document.createElement("h2");
+newHeading.innerHTML = "<i> Hello Shivesh </i>";
 console.log(newHeading);
 
-let p = document.querySelector("p")
+let p = document.querySelector("body").prepend(newHeading)
 // p.prepend(newHeading);
 // p.append(newHeading);
-p.before(newHeading)
-p.after(newHeading)
+// p.before(newHeading)
+// p.after(newHeading)
