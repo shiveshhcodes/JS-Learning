@@ -19,5 +19,5 @@ newHeading.innerText = "HELLO SHIVESH";
 console.log(newHeading);
 
 let p = document.querySelector("p")
-p.prepend(newHeading);
+// p.prepend(newHeading);
 p.append(newHeading);
