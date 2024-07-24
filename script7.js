@@ -11,4 +11,4 @@ console.log(newBtn);
 
 let div = document.querySelector("div");
 // div.append(newBtn);
-div.prepend(newBtn);
+div.before(newBtn);
