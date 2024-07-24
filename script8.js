@@ -1,7 +1,7 @@
 let btn1 = document.querySelector('#btn1');
 
-btn1.onclick = () => {
-    console.log("btn1 was click")
+btn1.onclick = (e) => {
+    console.log(e)
 }
 let a = 0
 let btn2 = document.querySelector('#btn2')
