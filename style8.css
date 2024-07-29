@@ -1,8 +1,18 @@
-div{
+/* div{
     height: 300px;
     width: 230px;
     background-color: dodgerblue;
     color: white;
     border: 6px red;
     margin-top: 12px;
+} */
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
 }
