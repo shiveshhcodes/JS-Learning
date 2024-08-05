@@ -71,7 +71,7 @@ let ar = [21 , "shivesh" , "woww" , 45 , 21]
 // let heroes = marvelHeroes.concat(dcHeroes);
 // console.log(heroes);
 
-let bigCom = ["Bloomberg" , "Microsoft" , "Uber", "Google" , "IBM" , "Netflix"]
+let bigCom = ["Bloombergg" , "Microsoft" , "Uber", "Google" , "IBM" , "Netflix"]
 // let firstTask = bigCom.shift();
 // console.log(firstTask)
 
