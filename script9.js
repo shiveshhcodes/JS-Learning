@@ -14,3 +14,20 @@
 // };
 
 // shivesh.__proto__ = student;
+
+class tataCars {
+    start() {
+        console.log("start")
+    }
+
+    stop() {
+        console.log("stop")
+    }
+
+    setBrand(brand) {
+        this.brand = brand
+    }
+}
+
+let safari = new tataCars();
+safari.setBrand("safari")
