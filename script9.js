@@ -30,4 +30,5 @@ class tataCars {
 }
 
 let safari = new tataCars();
+
 safari.setBrand("safari")
