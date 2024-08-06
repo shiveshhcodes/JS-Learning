@@ -16,10 +16,11 @@
 // shivesh.__proto__ = student;
 
 class tataCars {
-    constructor(brand){
+    constructor(brand , mileage){
         console.log("creating new object")
         console.log("creating new object")
         this.brand = brand
+        this.mileage = mileage
     }
     start() {
         console.log("start")
@@ -30,4 +31,4 @@ class tataCars {
     }
 }
 
-let safari = new tataCars("safari");
+let safari = new tataCars("safari" , 10);
