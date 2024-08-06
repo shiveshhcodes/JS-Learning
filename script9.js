@@ -15,20 +15,22 @@
 
 // shivesh.__proto__ = student;
 
-class tataCars {
-    constructor(brand , mileage){
-        console.log("creating new object")
-        console.log("creating new object")
-        this.brand = brand
-        this.mileage = mileage
-    }
-    start() {
-        console.log("start")
-    }
+// class tataCars {
+//     constructor(brand , mileage){
+//         console.log("creating new object")
+//         console.log("creating new object")
+//         this.brand = brand
+//         this.mileage = mileage
+//     }
+//     start() {
+//         console.log("start")
+//     }
 
-    stop() {
-        console.log("stop")
-    }
-}
+//     stop() {
+//         console.log("stop")
+//     }
+// }
 
-let safari = new tataCars("safari" , 10);
+// let safari = new tataCars("safari" , 10);
+
+
