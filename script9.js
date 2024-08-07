@@ -34,5 +34,7 @@
 // let safari = new tataCars("safari" , 10);
 
 class person {
-    
+    constructor() {
+        this.species = "homo sapiens"
+    }
 }
