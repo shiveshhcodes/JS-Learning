@@ -33,29 +33,29 @@
 
 // let safari = new tataCars("safari" , 10);
 
-class person {
-    constructor() {
-        this.species = "homo sapiens"
-    }
+// class person {
+//     constructor() {
+//         this.species = "homo sapiens"
+//     }
 
-    eat(){
-        console.log("they eat")
-    }
+//     eat(){
+//         console.log("they eat")
+//     }
 
-    sleep(){
-        console.log("they are borned to be sleep")
-    }
-}
+//     sleep(){
+//         console.log("they are borned to be sleep")
+//     }
+// }
 
-class enginner extends person {
-    constructor(branch) {
-        super() ;
-        this.branch = branch
-    }
+// class enginner extends person {
+//     constructor(branch) {
+//         super() ;
+//         this.branch = branch
+//     }
 
-  sleep() {
-    console.log("average age of sleep is 21")
-  }
-}
+//   sleep() {
+//     console.log("average age of sleep is 21")
+//   }
+// }
 
-let shivesh = new enginner("CS");
+// let shivesh = new enginner("CS");
