@@ -54,7 +54,6 @@ class enginner extends person {
     }
 
   sleep() {
-    super.sleep();
     console.log("average age of sleep is 21")
   }
 }
