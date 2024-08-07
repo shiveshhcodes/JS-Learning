@@ -33,4 +33,6 @@
 
 // let safari = new tataCars("safari" , 10);
 
-
+class person {
+    
+}
