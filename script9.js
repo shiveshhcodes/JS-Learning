@@ -43,7 +43,7 @@ class person {
     }
 
     sleep(){
-        console.log("they sleep")
+        console.log("they are borned to be sleep")
     }
 }
 
@@ -52,6 +52,11 @@ class enginner extends person {
         super() ;
         this.branch = branch
     }
+
+  sleep() {
+    super.sleep();
+    console.log("average age of sleep is 21")
+  }
 }
 
 let shivesh = new enginner("CS");
