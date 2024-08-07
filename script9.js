@@ -59,3 +59,15 @@
 // }
 
 // let shivesh = new enginner("CS");
+
+
+class user {
+    constructor(name , email) {
+        this.email = name
+        this.email = email
+    }
+
+    viewData(){
+        console.log("website data")
+    }
+}
