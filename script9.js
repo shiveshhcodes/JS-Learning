@@ -60,14 +60,18 @@
 
 // let shivesh = new enginner("CS");
 
-
+let DATA = "secret info";
 class user {
     constructor(name , email) {
-        this.email = name
-        this.email = email
+        this.name = name;
+        this.email = email;
     }
 
     viewData(){
-        console.log("website data")
+        console.log("website data = ", DATA);
     }
 }
+
+let student1 = new user("shivesh" , "abc@gmail.com")
+let student2 = new user("ayush" , "bcc@gmail.com")
+let student3 = new user("tejas" , "ccb@gmail.com")
