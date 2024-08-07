@@ -48,6 +48,10 @@ class person {
 }
 
 class enginner extends person {
+    constructor(branch) {
+        super() ;
+        this.branch = branch
+    }
 }
 
-let shivesh = new enginner();
+let shivesh = new enginner("CS");
