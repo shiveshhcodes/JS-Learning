@@ -68,10 +68,24 @@ class user {
     }
 
     viewData(){
-        console.log("website data = ", DATA);
+        console.log("User : " , this.name)
+        console.log("Email : " , this.email)
+        console.log("Basic Data: " , DATA)
     }
+}
+
+class Admin extends user {
+    constructor(name, email){
+        super(name, email);
+    }
+        editData(){
+        DATA = "some new value";
+    }
+
 }
 
 let student1 = new user("shivesh" , "abc@gmail.com")
 let student2 = new user("ayush" , "bcc@gmail.com")
 let student3 = new user("tejas" , "ccb@gmail.com")
+
+let admin1 = new Admin("admin" , "admin")
