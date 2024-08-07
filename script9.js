@@ -48,10 +48,6 @@ class person {
 }
 
 class enginner extends person {
-
-    // {
-    //     console.log("do nothing but sleep")
-    // }// sleep()
 }
 
 let shivesh = new enginner();
