@@ -37,4 +37,21 @@ class person {
     constructor() {
         this.species = "homo sapiens"
     }
+
+    eat(){
+        console.log("they eat")
+    }
+
+    sleep(){
+        console.log("they sleep")
+    }
 }
+
+class enginner extends person {
+
+    // {
+    //     console.log("do nothing but sleep")
+    // }// sleep()
+}
+
+let shivesh = new enginner();
