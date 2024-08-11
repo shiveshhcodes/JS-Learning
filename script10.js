@@ -23,10 +23,10 @@ function getData(dataID , getNextData) {
     // 2s
     setTimeout(() => {
         console.log("data is" , dataID)
-        if (dataID < 689) {
-            getData(dataID+4 , getNextData);
+        if (getNextData) {
+            getNextData();
         }
-    } , 1);
+    } , 1000);
 }
 
 getData(4)
