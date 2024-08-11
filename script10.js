@@ -11,10 +11,11 @@
 function getData(dataID , getNextData) {
     // 2s
     setTimeout(() => {
-        console.log("data - " , dataID)
-        if (getNextData) {
-            getNextData();
+        console.log("data is" , dataID)
+        if (dataID < 689) {
+            getData(dataID+4 , getNextData);
         }
-    } , 2000);
+    } , 1);
 }
 
+getData(4)
