@@ -105,7 +105,6 @@ function getData(dataID) {
         } , 2000);
     })
 }
-let p1 = getData(2);
-p1.then((res) => {
+getData(2).then((res) => {
     console.log(res);
 })
