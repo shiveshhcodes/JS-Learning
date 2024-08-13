@@ -97,11 +97,18 @@
 // })
 
 function getData(dataID , getNextData) {
+    return new Promise((resolve , reject) =>{
         // 2s
         setTimeout(() => {
             console.log("data is" , dataID)
+            resolve("data uploaded successfully")
             if (getNextData) {
                 getNextData();
             }
-        } , 200);
+        } , 2000);
+    })
     }
+let p1 = getData(2);
+p1.then((res) => {
+    console.log(res);
+})
