@@ -101,10 +101,13 @@ function getData(dataID) {
         // 2s
         setTimeout(() => {
             console.log("data is" , dataID)
-            resolve("data shown successfully")
+            resolve("all data shown successfully")
         } , 2000);
     })
 }
-getData(2).then((res) => {
-    console.log(res);
+getData(2).then(() => {
+    console.log("data 1 shown");
+    getData(4).then((res) => {
+    console.log(res)
+    })
 })
