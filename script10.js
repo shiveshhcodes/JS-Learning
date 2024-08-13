@@ -96,5 +96,12 @@
 //      asyncFunc2().then(() => {})
 // })
 
-
-// promise chain
+function getData(dataID , getNextData) {
+        // 2s
+        setTimeout(() => {
+            console.log("data is" , dataID)
+            if (getNextData) {
+                getNextData();
+            }
+        } , 200);
+    }
