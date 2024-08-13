@@ -64,7 +64,7 @@ const getPromise = () =>{
 
 let promise = getPromise();
 promise.then((res) => {
-    console.log("promise got " , res)
+    console.log("promise got printed" , res)
 })
 
 promise.catch((err) =>{
