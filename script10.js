@@ -38,7 +38,8 @@
 //  })
 // })
 
-let promise = new Promise((resolve , rejected) =>{
+let promise = new Promise((resolve , reject) =>{
     console.log("it is a success")
-    resolve("it's an hit")
+    // resolve("it's an hit")
+    reject("it's not an hit")
 })
