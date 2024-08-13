@@ -58,7 +58,7 @@ const getPromise = () =>{
     return new Promise((resolve , reject) => {
         console.log("i am a shivesh's promise");
         resolve(", therefore it's a HIT");
-        reject(" , therefore it's not an HIT")
+        reject(",therefore it's not an HIT")
     });
 };
 
