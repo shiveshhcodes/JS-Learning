@@ -86,16 +86,12 @@ function asyncFunc2() {
      setTimeout(() => {
       console.log("data 2 = 621,33,3,63");
       resolve("success")
-     }, 5000);
+     }, 4000);
     });
 }
 
 console.log("fetching data 1.....")
-asyncFunc1().then((res) => {
-    console.log(res);
-})
-
-console.log("fetching data 2.....")
-asyncFunc2().then((res) => {
-    console.log(res);
+asyncFunc1().then(() => {
+    console.log("fetching data 2.....");
+     asyncFunc2().then(() => {})
 })
