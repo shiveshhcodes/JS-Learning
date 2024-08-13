@@ -54,19 +54,29 @@
 // }
 
 
-const getPromise = () =>{
-    return new Promise((resolve , reject) => {
-        console.log("i am a shivesh's promise");
-        resolve(", therefore it's a HIT");
-        reject(",therefore it's not an HIT")
-    });
-};
+// const getPromise = () =>{
+//     return new Promise((resolve , reject) => {
+//         console.log("i am a shivesh's promise");
+//         resolve(", therefore it's a HIT");
+//         reject(",therefore it's not an HIT")
+//     });
+// };
 
-let promise = getPromise();
-promise.then((res) => {
-    console.log("promise got printed" , res)
-})
+// let promise = getPromise();
+// promise.then((res) => {
+//     console.log("promise got printed" , res)
+// })
 
-promise.catch((err) =>{
-    console.log("promise did not get printed" , err)
-})
+// promise.catch((err) =>{
+//     console.log("promise did not get printed" , err)
+// })
+
+
+function asyncFunc1() {
+    return new Promise ((resolve , reject) => {
+     setTimeout(() => {
+      console.log("data 1");
+      resolve("success")
+     }, 5000)
+    }) 
+}
