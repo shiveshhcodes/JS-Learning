@@ -72,26 +72,29 @@
 // })
 
 
-function asyncFunc1() {
-    return new Promise ((resolve , reject) => {
-     setTimeout(() => {
-      console.log("data 1 = 21,23,423,23");
-      resolve("success")
-     }, 4000);
-    });
-}
+// function asyncFunc1() {
+//     return new Promise ((resolve , reject) => {
+//      setTimeout(() => {
+//       console.log("data 1 = 21,23,423,23");
+//       resolve("success")
+//      }, 4000);
+//     });
+// }
 
-function asyncFunc2() {
-    return new Promise ((resolve , reject) => {
-     setTimeout(() => {
-      console.log("data 2 = 621,33,3,63");
-      resolve("success")
-     }, 4000);
-    });
-}
+// function asyncFunc2() {
+//     return new Promise ((resolve , reject) => {
+//      setTimeout(() => {
+//       console.log("data 2 = 621,33,3,63");
+//       resolve("success")
+//      }, 4000);
+//     });
+// }
 
-console.log("fetching data 1.....")
-asyncFunc1().then(() => {
-    console.log("fetching data 2.....");
-     asyncFunc2().then(() => {})
-})
+// console.log("fetching data 1.....")
+// asyncFunc1().then(() => {
+//     console.log("fetching data 2.....");
+//      asyncFunc2().then(() => {})
+// })
+
+
+// promise chain
