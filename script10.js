@@ -38,8 +38,19 @@
 //  })
 // })
 
-let promise = new Promise((resolve , reject) =>{
-    console.log("it is a success")
-    // resolve("it's an hit")
-    reject("it's not an hit")
-})
+// let promise = new Promise((resolve , reject) =>{
+//     console.log("it is a success")
+//     // resolve("it's an hit")
+//     reject("it's not an hit")
+// })
+
+// function getData(dataID){
+//     return new Promise ((resolve , reject) => {
+//         setTimeout(() =>{
+//             console.log("data is" , dataID)
+//              resolve("success")
+//         } , 5000)
+//     })
+// }
+
+
