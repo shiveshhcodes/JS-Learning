@@ -106,8 +106,13 @@ function getData(dataID) {
     })
 }
 getData(2).then(() => {
-    console.log("data 1 shown");
-    getData(4).then((res) => {
-    console.log(res)
-    })
+    return getData(3);
+}).then((res) =>{
+    return getData(4);
+}).then((res) =>{
+    return getData(5)
+}).then((res) =>{
+    setTimeout(() =>{
+        console.log("everything was successfull")
+    }, 3000)
 })
