@@ -67,5 +67,5 @@ promise.then((res) => {
 })
 
 promise.catch((err) =>{
-    console.log("promise d")
+    console.log("promise did not get resolved")
 })
