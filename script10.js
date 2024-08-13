@@ -54,3 +54,8 @@
 // }
 
 
+const getPromise = () =>{
+    return new Promise((resolve , reject) =>{
+        console.log("i am a shivesh's promise")
+    })
+}
