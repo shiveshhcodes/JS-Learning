@@ -96,18 +96,15 @@
 //      asyncFunc2().then(() => {})
 // })
 
-function getData(dataID , getNextData) {
+function getData(dataID) {
     return new Promise((resolve , reject) =>{
         // 2s
         setTimeout(() => {
             console.log("data is" , dataID)
-            resolve("data uploaded successfully")
-            if (getNextData) {
-                getNextData();
-            }
+            resolve("data shown successfully")
         } , 2000);
     })
-    }
+}
 let p1 = getData(2);
 p1.then((res) => {
     console.log(res);
