@@ -96,5 +96,26 @@
 //      asyncFunc2().then(() => {})
 // })
 
+function getData(dataID) {
+    return new Promise((resolve , reject) =>{
+        // 2s
+        setTimeout(() => {
+            console.log("data is" , dataID)
+            resolve("all data shown successfully")
+        } , 2000);
+    })
+}
 
-// here we will study
+
+// chain function.
+getData(2).then(() => {
+    return getData(3);
+}).then((res) =>{
+    return getData(4);
+}).then((res) =>{
+    return getData(5)
+}).then((res) =>{
+    setTimeout(() =>{
+        console.log("everything was successfull")
+    }, 3000)
+})
