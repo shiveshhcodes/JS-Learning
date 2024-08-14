@@ -96,26 +96,19 @@
 //      asyncFunc2().then(() => {})
 // })
 
-function getData(dataID) {
+
+// here we will study of async and await
+
+function api(){
     return new Promise((resolve , reject) =>{
-        // 2s
-        setTimeout(() => {
-            console.log("data is" , dataID)
-            resolve("all data shown successfully")
-        } , 2000);
+        setTimeout(() =>{
+            console.log("weather data");
+            resolve(200);
+        }, 2000);
     })
 }
 
-
-// chain function.
-getData(2).then(() => {
-    return getData(3);
-}).then((res) =>{
-    return getData(4);
-}).then((res) =>{
-    return getData(5)
-}).then((res) =>{
-    setTimeout(() =>{
-        console.log("everything was successfull")
-    }, 3000)
-})
+async function getWeatherData() {
+    await api(); //1st
+    await api(); //2nd
+}
