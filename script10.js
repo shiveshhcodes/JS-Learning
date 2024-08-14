@@ -100,9 +100,5 @@
 // here we will study of async and await
 
 function api(){
-    return new Promise((resolve , reject) =>{
-        setTimeout(() =>{
-            console.log("weather data")
-        })
-    })
+    return new Promise((resolve , reject) =>{})
 }
