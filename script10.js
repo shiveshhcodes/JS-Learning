@@ -99,27 +99,10 @@
 
 // here we will study of async and await
 
-// function api(){
-//     return new Promise((resolve , reject) =>{
-//         setTimeout(() =>{
-//             console.log("weather data");
-//             resolve(200);
-//         }, 2000);
-//     })
-// }
-
-// async function getWeatherData() {
-//     await api(); //1st
-//     await api(); //2nd
-// }
-
-
-function getData(dataID , getNextData) {
-    // 2s
-    setTimeout(() => {
-        console.log("data is" , dataID)
-        if (dataID < 689) {
-            getData(dataID+4 , getNextData);
-        }
-    } , 1);
+function api(){
+    return new Promise((resolve , reject) =>{
+        setTimeout(() =>{
+            console.log("weather data")
+        }),
+    })
 }
