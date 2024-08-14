@@ -129,3 +129,5 @@ function getData(dataID){
         }, 3000)
     });
 }
+
+// async await.,.,
