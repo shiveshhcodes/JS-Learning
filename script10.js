@@ -105,6 +105,9 @@ function getData(dataID) {
         } , 2000);
     })
 }
+
+
+// chain function.
 getData(2).then(() => {
     return getData(3);
 }).then((res) =>{
