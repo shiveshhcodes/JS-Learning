@@ -98,7 +98,3 @@
 
 
 // here we will study of async and await
-
-function api(){
-    return 
-}
