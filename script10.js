@@ -96,26 +96,36 @@
 //      asyncFunc2().then(() => {})
 // })
 
-function getData(dataID) {
-    return new Promise((resolve , reject) =>{
-        // 2s
-        setTimeout(() => {
-            console.log("data is" , dataID)
-            resolve("all data shown successfully")
-        } , 2000);
-    })
+// function getData(dataID) {
+//     return new Promise((resolve , reject) =>{
+//         // 2s
+//         setTimeout(() => {
+//             console.log("data is" , dataID)
+//             resolve("all data shown successfully")
+//         } , 2000);
+//     })
+// }
+
+
+// // chain function.
+// getData(2).then(() => {
+//     return getData(3);
+// }).then((res) =>{
+//     return getData(4);
+// }).then((res) =>{
+//     return getData(5)
+// }).then((res) =>{
+//     setTimeout(() =>{
+//         console.log("everything was successfull")
+//     }, 3000)
+// })
+
+
+function getData(dataID){
+    return new Promise((resolve , reject) => {
+        setTimeout(() =>{
+            console.log("data" , dataID);
+            resolve("successed");
+        }, 3000)
+    });
 }
-
-
-// chain function.
-getData(2).then(() => {
-    return getData(3);
-}).then((res) =>{
-    return getData(4);
-}).then((res) =>{
-    return getData(5)
-}).then((res) =>{
-    setTimeout(() =>{
-        console.log("everything was successfull")
-    }, 3000)
-})
