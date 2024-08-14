@@ -103,6 +103,6 @@ function api(){
     return new Promise((resolve , reject) =>{
         setTimeout(() =>{
             console.log("weather data")
-        }),
+        })
     })
 }
