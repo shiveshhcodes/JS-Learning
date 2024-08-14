@@ -126,8 +126,15 @@ function getData(dataID){
         setTimeout(() =>{
             console.log("data" , dataID);
             resolve("successed");
-        }, 3000)
+        }, 1000)
     });
 }
 
 // async await.,.,
+
+getData(3)
+
+// async function getAllData() {
+//     console.log("getting data 1....")
+//     await getData(1)
+// }
