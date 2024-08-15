@@ -7,7 +7,7 @@
 // let something = document.getElementsByTagName("p")
 // console.dir(something)
 
-// let elements = document.querySelector("p")
+// let elements = document.querySelector("p") // it selects all the paragraph elements.
 // console.dir(elements)
 
 // let div = document.querySelector("div");
