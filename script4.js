@@ -33,7 +33,6 @@ let ar = [21 , "shivesh" , "woww" , 45 , 21]
 // console.log(`the sum of marks is ${sum}`)
 // console.log(`the average of marks is ${avg}`)
 
-
 // let price = [550 , 545 , 500 , 940 , 52.15540]
 
 // let i =0;
