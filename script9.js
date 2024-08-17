@@ -84,7 +84,7 @@ class Admin extends user {
 
 }
 
-let student1 = new user("shivesh" , "abc@gmail.com")
+let student1 = new user("shiveshh" , "abc@gmail.com")
 let student2 = new user("ayush" , "bcc@gmail.com")
 let student3 = new user("tejas" , "ccb@gmail.com")
 
