@@ -148,4 +148,4 @@ const product = arr.reduce((prev,curr)=>{
     return prev * curr ;
 }) ; 
 
-console.log("the factorial product value is",product)
+console.log("the factorial product value iss",product)
