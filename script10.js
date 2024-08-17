@@ -155,7 +155,7 @@ function getData(dataID){
     await getData(1)
     console.log("getting data 2....")
     await getData(2)
-    console.log("getting data 3....")
+    console.log("getting data 3.....")
     await getData(3)
     console.log("getting data 4....")
     await getData(4)
