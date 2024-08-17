@@ -171,10 +171,10 @@
 
 let number = prompt("Enter a Number: ")
 // console.log("you entered " , number)
-if(number%5 == 0){
-    console.log(number , "is a multiple of 5")
+if(number%6 == 0){
+    console.log(number , "is a multiple of 6")
 } else {
-    console.log(number , "is not a multiple of 5")
+    console.log(number , "is not a multiple of 6")
 }
  
 
