@@ -13,7 +13,10 @@ function getFacts() {
     console.log("fetching data....");
     fetch(URL)
     .then((response) => {
-       response.json();
+      return response.json();
+    }).then((data) =>{
+     console.log(data);
+     factPara.innerText = data[2].text;    
     })
 }
 
