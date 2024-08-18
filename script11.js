@@ -9,6 +9,12 @@ const button = document.querySelector("#btn")
 //     factPara.innerText = data[3].text;
 // }
 
-function getFacts()
+function getFacts() {
+    console.log("fetching data....");
+    fetch(URL)
+    .then((response) => {
+       response.json();
+    })
+}
 
 button.addEventListener("click" , getFacts)
