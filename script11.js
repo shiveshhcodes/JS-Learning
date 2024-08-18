@@ -9,4 +9,4 @@ const getFacts = async () => {
     factPara.innerText = data[3].text;
 }
 
-but
+button.addEventListener("click" , getFacts)
