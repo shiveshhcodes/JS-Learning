@@ -3,7 +3,7 @@ const factPara = document.querySelector("#fact")
 const button = document.querySelector("#btn")
 
 const getFacts = async () => {
-    console.log("getting data....")
+    console.log("getting data shivesh boss....")
     let response = await fetch(URL)
     console.log(response.status)
     let data = await response.json();
