@@ -125,7 +125,7 @@ function getData(dataID){
     return new Promise((resolve , reject) => {
         setTimeout(() =>{
             console.log("data" , dataID);
-            resolve("successed");
+            resolve("successedd");
         }, 3200)
     });
 }
